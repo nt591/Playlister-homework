@@ -1,3 +1,7 @@
+require_relative 'artist'
+require_relative 'song'
+require_relative 'genre'
+
 def test(title, &b)
   begin
     if b
